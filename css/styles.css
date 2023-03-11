@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(white, #28a9b9);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  height: 60px;
+  width: 60px;
+}
+
+h1 {
+  margin-top: 14px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  height: 60vh;
+  margin: auto;
+  max-width: 95vw;
+  overflow-y: auto;
+  padding: 2px;
+  border-radius: 10px;
+  margin-bottom: 17px;
+  margin-top: 10px;
+}
+
+.msg {
+  background-color: #96e2e2;
+  padding: 10px 10px;
+  margin: 13px 14px;
+  border: 1px solid #4aa2a2;
+  border-radius: 10px;
+  width: 34%;
+}
+
+.left {
+  clear: both;
+  float: left;
+}
+
+.right {
+  clear: both;
+  float: right;
+}
+.send {
+  margin-top: 50px;
+}
+#send-form {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 96.6vw;
+}
+
+#inp-msg {
+  width: 70vw;
+  height: 6vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0 10px;
+}
+
+.btn {
+  width: 67px;
+  height: 6.5vh;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #4aa2a2;
+  background-color: #71b7bf;
+}
